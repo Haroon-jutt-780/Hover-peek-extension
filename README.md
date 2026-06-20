@@ -2,6 +2,8 @@
 
 A simple, lightweight Chrome extension to preview links inline without opening a million background tabs. Just hold `Alt` and hover over any link to see what's on the other side.
 
+![HoverPeek Demo](screenshot.png)
+
 I built this because I got tired of "link roulette"—clicking open five tabs from an article or documentation page just to find out four of them are irrelevant or clickbait. This extension injects a fast, interactive iframe preview right next to your cursor so you can scout ahead without losing your place.
 
 
