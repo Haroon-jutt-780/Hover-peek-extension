@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "HoverPeek - Link Previewer",
+  "version": "1.0",
+  "description": "Preview links in a popup frame by holding Alt while hovering over them.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
